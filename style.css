@@ -11,6 +11,7 @@ html,body{height:100%;margin:0;font-family:Inter, "Segoe UI", Roboto, Arial, san
   /* image + black overlay on top */
 background:linear-gradient(180deg,var(--bg1),var(--bg2));color:#fff}
 
+
 .wrap{max-width:1200px;margin:28px auto;padding:20px}
 .top{display:flex;align-items:center;gap:14px;justify-content:center}
 .logo{font-size:38px}
