@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Personal Book Library</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <div class="logo">📚</div>
+      <h1>Personal Book Library</h1>
+    </header>
+
+    <section class="controls">
+      <input id="search" type="search" placeholder="Search by title or author..." />
+      <select id="category">
+        <option value="All">All Categories</option>
+        <option value="Self-help">Self-help</option>
+        <option value="Programming">Programming</option>
+        <option value="Fiction">Fiction</option>
+        <option value="Science">Science</option>
+      </select>
+      <button id="clearFilters">Clear</button>
+    </section>
+
+    <section class="book-area">
+      <div id="bookList" class="book-list"></div>
+
+      <aside class="right">
+        <div class="history card">
+          <h2>📖 Borrowing History</h2>
+          <ul id="historyList" class="history-list"></ul>
+        </div>
+
+        <div class="add card">
+          <h2>➕ Add Book</h2>
+          <form id="addBookForm">
+            <input id="title" placeholder="Book Title" required />
+            <input id="author" placeholder="Author" required />
+            <select id="newCategory" required>
+              <option value="">Select category</option>
+              <option>Self-help</option>
+              <option>Programming</option>
+              <option>Fiction</option>
+              <option>Science</option>
+            </select>
+            <input id="imgUrl" placeholder="Cover image URL (optional)" />
+            <button type="submit">Add Book</button>
+          </form>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
