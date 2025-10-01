@@ -9,17 +9,7 @@
 *{box-sizing:border-box}
 html,body{height:100%;margin:0;font-family:Inter, "Segoe UI", Roboto, Arial, sans-serif;
   /* image + black overlay on top */
-  background-image:
-     linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),
-    url();
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed; /* note: mobile browsers may ignore fixed */
-  background-size: cover;
-
-  color: #fff;
-}
-
+background:linear-gradient(180deg,var(--bg1),var(--bg2));color:#fff}
 
 .wrap{max-width:1200px;margin:28px auto;padding:20px}
 .top{display:flex;align-items:center;gap:14px;justify-content:center}
