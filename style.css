@@ -11,7 +11,7 @@ html,body{height:100%;margin:0;font-family:Inter, "Segoe UI", Roboto, Arial, san
   /* image + black overlay on top */
   background-image:
      linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),
-    url("https://unsplash.com/photos/a-long-library-filled-with-lots-of-books-_dh9ciwJeGY");
+    url();
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed; /* note: mobile browsers may ignore fixed */
